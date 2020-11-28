@@ -1,2 +1,2 @@
-# DiscordBots
-Code for bots I've created on Discord.
+# HTML
+Code for my HTML projects
