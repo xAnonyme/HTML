@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table of Elements</title>
+</head>
+<body onload='alert("Welcome to my webpage")' onbeforeunload='alert("Thanks for filling out the form!")'>
+    <h1><b><center>Periodic Table of Elements</b></center></h1>
+    <center><table border=1 cellpadding=6>
+        <tr>
+            <td>Element Name</td>
+            <td>Element Symbol</td>
+            <td>Atomic Mass</td>
+            <td>State of Matter</td>
+            <td>Properties</td>
+            <td rowspan="5"><a href="https://www.ptable.com/">click here for more information</a></td>
+        </tr>
+        <tr>
+            <td>Sodium</td>
+            <td>Na</td>
+            <td>22.990</td>
+            <td rowspan="2">Solid</td>
+            <td bgcolor="d3d3d3">
+                <ul>
+                    <li>alkali metal</li>
+                    <li>soft</li>
+                    <li>silvery-white</li>
+                    <li>highly reactive</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Calcium</td>
+            <td>Ca</td>
+            <td>40.078</td>
+            <td bgcolor="#696969" >
+                <ul>
+                    <li>alkaline earth metal</li>
+                    <li>5th most abundant element in the human body</li>
+                    <li>dull gray, silver</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Bromine</td>
+            <td>Br</td>
+            <td>79.904</td>
+            <td>Liquid</td>
+            <td bgcolor="a52a2a" rowspan="2">
+                <ul>
+                    <li>halogen</li>
+                    <li>highly reactive</li>
+                    <li>diatomic molecule</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Chlorine</td>
+            <td>Cl</td>
+            <td>35.450</td>
+            <td>Gas</td>
+
+        </tr>
+    </table></center>
+    <br><br><br>
+    <center><form action="">
+        <p>Enter your name: <input type="text" name="yourname" size=15 value="type your name here"></p>
+        <p>Enter your password: <input type="password" name="secret"></p>
+        Are you ready to take a mini quiz? <br> <input type="radio" name="yes" value="yes">yes<br>
+        <input type="radio" name="no" value="no">no<br>
+
+        <p>Which of the following elements are metals?</p>
+        <input type="checkbox" name="metal">Na
+        <br><input type="checkbox" name="metal2">Ca
+        <br><input type="checkbox" name="metal3">Br
+        <br><input type="checkbox" name="meta4">Cl
+        <br><br>
+        Which two elements provided above have similar properties? <input type="text" name="similar">
+        <br><br>
+        Which of the elements provided above is the heaviest? <input type="text" name="heaviest" value="type your answer here"> 
+        <br><br>Thoughts on this quiz: <br> <textarea name="feedback" id="" cols="30" rows="5"></textarea><br>
+        <input type="submit" value="submit">
+        <br>
+        <input type="button" value="Show my favorite page" onclick='window.open("https://www.ptable.com/")'>
+
+        <input type="button" value="click here for a nice color" onclick="document.bgColor= '#e6e6fa'">
+        <input type="button" value="click here for another nice color" onclick="document.bgColor= '#afeeee'">
+        <input type="button" value="click here for white" onclick="document.bgColor= 'FFFFFF'">
+     
+    </form></center>
+</body>
+</html>
